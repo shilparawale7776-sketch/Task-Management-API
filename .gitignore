@@ -1,15 +1,16 @@
-# Java / Maven
-backend/target/
-*.class
+# React
+frontend/taskmanager-frontend/node_modules/
+frontend/taskmanager-frontend/dist/
 
-# React / Vite
-frontend/node_modules/
-frontend/dist/
+# Spring Boot
+backend/taskmanager/target/
 
-# IDE
-.idea/
-.vscode/
+# IDE files
+backend/taskmanager/.settings/
+backend/taskmanager/.classpath
+backend/taskmanager/.project
+backend/taskmanager/.factorypath
 
-# Environment secrets
+# Secrets
 .env
 .env.local
